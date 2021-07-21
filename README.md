@@ -1,5 +1,9 @@
 # Razzle TypeScript Example
 
+Callback:
+node -p "var fn = require('./build/server'); fn((_,x)=>console.log(x), '/');"
+
+
 ## How to use
 
 <!-- START install generated instructions please keep comment here to allow auto update -->
